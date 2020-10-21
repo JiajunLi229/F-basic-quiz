@@ -27,6 +27,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-bottom: 200px;
 }
 .head-information {
   display: flex;
@@ -38,4 +39,31 @@ main {
   width: 100px;
   height: 100px;
   margin: -50px auto auto auto;
+}
+
+.sub-title {
+  color: #e55b50;
+}
+
+.about-me {
+  margin: auto;
+}
+
+.education {
+  margin-left: 103px;
+  display: flex;
+  flex-direction: column;
+}
+
+.education-container {
+  display: flex;
+  margin-left: 50px;
+  align-items: flex-start;
+}
+
+.education-detail {
+  background-color: #f8f9fa;
+  width: 90%;
+  margin-left: 2%;
+  padding-left: 2%;
 }
