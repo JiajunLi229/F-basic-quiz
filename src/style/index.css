@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #343a40;
+  background-color: #e8e9e8;
+  line-height: 1.5;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  width: 80%;
+  height: 75%;
+  background-color: white;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.head-information {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.picture {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: -50px auto auto auto;
+}
