@@ -1,3 +1,7 @@
+/*TODO GTB-3: * 有合理的使用flex*/
+/*TODO GTB-3: * 页面样式存在些问题*/
+/*TODO GTB-4: * class命名比较符合语义*/
+
 * {
   box-sizing: border-box;
 }
